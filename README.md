@@ -35,7 +35,6 @@ python copy_yaml.py
 # Move the folder Ex. data_partition_64 outside the `scripts/` folder. 
 
 # move the data_partition_64 folder outside of the script folder
-# create folder 'model' and  'prediction' inside every part
 
 #To run DCRNN on the local machine with one partition
 
