@@ -1,4 +1,4 @@
-# Large scale traffic forecasting using diffusion convolution recurrent neural network
+# GP-DCRNN: Large scale traffic forecasting using diffusion convolution recurrent neural network
 
 
 This is a TensorFlow implementation of Diffusion Convolutional Recurrent Neural Network.
