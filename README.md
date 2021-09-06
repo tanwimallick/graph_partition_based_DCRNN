@@ -1,6 +1,6 @@
 # GP-DCRNN: Large scale traffic forecasting using graph-partitioning-based diffusion convolution recurrent neural network
 
-Graph-partitioning-based DCRNN approach model the traffic on a large California highway network with 11,160 sensor locations. DCRNN model can be used to forecast the speed and flow simultaneously. This is a TensorFlow implementation of Diffusion Convolutional Recurrent Neural Network.
+Graph-partitioning-based DCRNN approach model the traffic on a large California highway network with 11,160 sensor locations. The general idea is to partition the large highway network into a number of small networks, and trained them with a simultaneously. The training process takes around 3 hours in a moderately sized GPU cluster, and the real-time inference can be run on traditional hardware such as CPUs. This is a TensorFlow implementation of Diffusion Convolutional Recurrent Neural Network.
 
 
 ## Requirements
@@ -50,3 +50,18 @@ qsub_64.sh
 The model generates prediction of DCRNN is in `data_partition_64/part{0..63}/results/dcrnn_predictions_[1-12].h5`.
 
 
+## Citation
+
+If you find this repository, e.g., the code and the datasets, useful in your research, please cite the following paper:
+```
+@article{mallick2020graph,
+  title={Graph-partitioning-based diffusion convolutional recurrent neural network for large-scale traffic forecasting},
+  author={Mallick, Tanwi and Balaprakash, Prasanna and Rask, Eric and Macfarlane, Jane},
+  journal={Transportation Research Record},
+  volume={2674},
+  number={9},
+  pages={473--488},
+  year={2020},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+```
