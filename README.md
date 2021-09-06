@@ -41,7 +41,7 @@ python dcrnn_train.py --config_filename=data_partitions_64/part0/dcrnn_config.ya
 
 ```
 
-Script to submit job on cooley is 
+Script to submit job on cooley (GPU cluster at Argonne Leadership Computing Facility) is 
 
 ```bash
 qsub_64.sh
