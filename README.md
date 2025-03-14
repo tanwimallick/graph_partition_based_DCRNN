@@ -11,27 +11,31 @@ Graph-partitioning-based DCRNN approach model the traffic on a large California 
 - pyaml
 
 
-## Data Preparation
-Download the traffic data files for entire California ['speed.h5'](https://anl.box.com/s/7hfhtie02iufy75ac1d8g8530majwci0) and ['flow.h5'](https://anl.app.box.com/s/q00j7jxbulq8pqkivjzt5ztv0ai1xjds), adjacency matrix  ['adj_mat.pkl'](https://anl.box.com/s/4143x1repqa1u26aiz7o2rvw3vpcu0wp) and distance between sensors ['distances.csv'](https://anl.box.com/s/cfnc6wryh4yrp58qfc5z7tyxbbpj4gek),  
-and keep in the `scripts/` folder.
+# 📂 Data Preparation
 
-This repository contains **traffic-related datasets** for **Los Angeles (LA)** and **San Francisco (SFO)**. It includes:
-- **Traffic speed measurements** collected from sensors.
-- **Sensor adjacency matrices** representing road network connectivity.
-- **Sensor distances** for spatial analysis.
+To get started, download the necessary traffic data files for **California** and store them in the `scripts/` folder.
 
-These datasets can be used for **traffic flow analysis, machine learning models, transportation research, and graph-based studies**.
+## 📥 **Download Required Files**
+### **California Traffic Data**
+- 🚦 **Traffic Speed Data**: [`speed.h5`](https://anl.box.com/s/7hfhtie02iufy75ac1d8g8530majwci0)  
+- 🚗 **Traffic Flow Data**: [`flow.h5`](https://anl.app.box.com/s/q00j7jxbulq8pqkivjzt5ztv0ai1xjds)  
+- 🗺 **Adjacency Matrix**: [`adj_mat.pkl`](https://anl.box.com/s/4143x1repqa1u26aiz7o2rvw3vpcu0wp)  
+- 📏 **Sensor Distances**: [`distances.csv`](https://anl.box.com/s/cfnc6wryh4yrp58qfc5z7tyxbbpj4gek)  
 
-## 📂 Dataset Contents
+### **Los Angeles (LA) Traffic Data**
+- 🌆 **Complete LA Dataset**: [`LA Traffic Data`](https://anl.box.com/s/r5yc2zie02pbwwkz9hf0q1pfl2ofi8zo)  
+- 🚦 **Traffic Speed Data**: [`speed.h5`](https://anl.box.com/s/crzf75ein8s839de8fklpubauddv1p6w)  
+- 🗺 **Adjacency Matrix**: [`adj_mat.pkl`](https://anl.box.com/s/9qc2lc1147xzh8kmq3j4fuo4buiksxua)  
+- 📏 **Sensor Distances**: [`distances.csv`](https://anl.box.com/s/5joqmag1954qqf2thttudy5mdwtu2z35)  
 
-### **Los Angeles (LA) Data**
-- 📄 [`LA Traffic Data`](https://anl.box.com/s/r5yc2zie02pbwwkz9hf0q1pfl2ofi8zo) - Full dataset for **Los Angeles**, including speed data, adjacency matrix, and distances.
-- 📄 [`speed.h5`](https://anl.box.com/s/crzf75ein8s839de8fklpubauddv1p6w) - **Traffic speed data** (HDF5 format).
-- 📄 [`adj_mat.pkl`](https://anl.box.com/s/9qc2lc1147xzh8kmq3j4fuo4buiksxua) - **Adjacency matrix** (Pickle format).
-- 📄 [`distances.csv`](https://anl.box.com/s/5joqmag1954qqf2thttudy5mdwtu2z35) - **Sensor distance data** (CSV format).
+### **San Francisco (SFO) Traffic Data**
+- 🌉 **Complete SFO Dataset**: [`SFO Traffic Data`](https://anl.box.com/s/yw0dgzat4zm4jy8grls2ow7n0xcm56ou)  
 
-### **San Francisco (SFO) Data**
-- 📄 [`SFO Traffic Data`](https://anl.box.com/s/yw0dgzat4zm4jy8grls2ow7n0xcm56ou) - Full dataset for **San Francisco**, including speed data, adjacency matrix, and distances.
+---
+
+## 📂 **Organizing Files**
+After downloading, place the files inside the `scripts/` directory:
+
 
 
 ```bash
