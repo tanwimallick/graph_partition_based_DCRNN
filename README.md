@@ -25,6 +25,7 @@ The dataset covers traffic in **nine districts** of California:
 - **D12** - Orange County  
 
 The dataset includes:
+
 ✔ **Traffic speed measurements** collected from sensors.  
 ✔ **Traffic flow data** representing vehicle density and movement.  
 ✔ **Sensor adjacency matrices** representing road network connectivity.  
