@@ -16,7 +16,7 @@ Download the traffic data files for entire California ['speed.h5'](https://anl.b
 and keep in the `scripts/` folder.
 
 
-Download the traffic data files for [Los Angeles (LA)](https://anl.box.com/s/r5yc2zie02pbwwkz9hf0q1pfl2ofi8zo) and [San Francisco (SFO)] (https://anl.box.com/s/yw0dgzat4zm4jy8grls2ow7n0xcm56ou).
+Download the traffic data files for [Los Angeles (LA)](https://anl.box.com/s/r5yc2zie02pbwwkz9hf0q1pfl2ofi8zo) and [San Francisco (SFO)](https://anl.box.com/s/yw0dgzat4zm4jy8grls2ow7n0xcm56ou).
 
 ```bash
 # Generate adjucency matrix for 64 partitions. It will generate 64 folder containing adj_mat.pkl for each partition
