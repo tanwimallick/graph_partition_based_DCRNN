@@ -15,8 +15,24 @@ Graph-partitioning-based DCRNN approach model the traffic on a large California 
 Download the traffic data files for entire California ['speed.h5'](https://anl.box.com/s/7hfhtie02iufy75ac1d8g8530majwci0) and ['flow.h5'](https://anl.app.box.com/s/q00j7jxbulq8pqkivjzt5ztv0ai1xjds), adjacency matrix  ['adj_mat.pkl'](https://anl.box.com/s/4143x1repqa1u26aiz7o2rvw3vpcu0wp) and distance between sensors ['distances.csv'](https://anl.box.com/s/cfnc6wryh4yrp58qfc5z7tyxbbpj4gek),  
 and keep in the `scripts/` folder.
 
+This repository contains **traffic-related datasets** for **Los Angeles (LA)** and **San Francisco (SFO)**. It includes:
+- **Traffic speed measurements** collected from sensors.
+- **Sensor adjacency matrices** representing road network connectivity.
+- **Sensor distances** for spatial analysis.
 
-Download the traffic data files for [Los Angeles (LA)](https://anl.box.com/s/r5yc2zie02pbwwkz9hf0q1pfl2ofi8zo) and [San Francisco (SFO)](https://anl.box.com/s/yw0dgzat4zm4jy8grls2ow7n0xcm56ou).
+These datasets can be used for **traffic flow analysis, machine learning models, transportation research, and graph-based studies**.
+
+## 📂 Dataset Contents
+
+### **Los Angeles (LA) Data**
+- 📄 [`LA Traffic Data`](https://anl.box.com/s/r5yc2zie02pbwwkz9hf0q1pfl2ofi8zo) - Full dataset for **Los Angeles**, including speed data, adjacency matrix, and distances.
+- 📄 [`speed.h5`](https://anl.box.com/s/crzf75ein8s839de8fklpubauddv1p6w) - **Traffic speed data** (HDF5 format).
+- 📄 [`adj_mat.pkl`](https://anl.box.com/s/9qc2lc1147xzh8kmq3j4fuo4buiksxua) - **Adjacency matrix** (Pickle format).
+- 📄 [`distances.csv`](https://anl.box.com/s/5joqmag1954qqf2thttudy5mdwtu2z35) - **Sensor distance data** (CSV format).
+
+### **San Francisco (SFO) Data**
+- 📄 [`SFO Traffic Data`](https://anl.box.com/s/yw0dgzat4zm4jy8grls2ow7n0xcm56ou) - Full dataset for **San Francisco**, including speed data, adjacency matrix, and distances.
+
 
 ```bash
 # Generate adjucency matrix for 64 partitions. It will generate 64 folder containing adj_mat.pkl for each partition
