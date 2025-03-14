@@ -10,6 +10,32 @@ Graph-partitioning-based DCRNN approach model the traffic on a large California 
 - tensorflow>=1.13.1
 - pyaml
 
+## 📂 **Dataset Overview**
+The final dataset contains **speed and flow data from 11,160 traffic stations** across **California** from **January 1, 2018, to December 31, 2018**, with a **granularity of 5 minutes**.  
+
+The dataset covers traffic in **nine districts** of California:  
+- **D3** - North Central  
+- **D4** - Bay Area  
+- **D5** - Central Coast  
+- **D6** - South Central  
+- **D7** - Los Angeles  
+- **D8** - San Bernardino  
+- **D10** - Central  
+- **D11** - San Diego  
+- **D12** - Orange County  
+
+The dataset includes:
+✔ **Traffic speed measurements** collected from sensors.  
+✔ **Traffic flow data** representing vehicle density and movement.  
+✔ **Sensor adjacency matrices** representing road network connectivity.  
+✔ **Sensor distances** for spatial analysis.  
+
+These datasets are useful for:
+🚦 **Traffic flow analysis**  
+📊 **Machine learning & deep learning models for traffic prediction**  
+🛣 **Graph-based road network modeling**  
+🏙 **Urban mobility & transportation planning**  
+
 
 # 📂 Data Preparation
 
@@ -35,7 +61,6 @@ To get started, download the necessary traffic data files for **California** and
 
 ## 📂 **Organizing Files**
 After downloading, place the files inside the `scripts/` directory:
-
 
 
 ```bash
